@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Forms</title>
+    </head>
+
+    <body>
+        <h1>Sign Up Page</h1>
+        <form>
+            <label for="username">Login Id:</label>
+            <input type="text" id="username" placeholder="Enter username" required>
+            <br>
+            <br>
+            <label for="password">Enter Password:</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+
+            <p>Select Gender: </p>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" name="gender" id="female">
+            <label for="male">Female</label>
+            <br>
+            <br>
+
+            <label for="SecQues">Security Question: </label>
+            <select name="SecQues" id="SecQues">
+                <option value="Ques1"> Abc </option>
+                <option value="Ques2">Hij</option>
+                <option value="Ques3"> Xyz </option>
+            </select>
+            <br>
+            <br>
+            <label for="Answer">Write your answer here: </label>
+            <input type="text" id="Answer">
+
+            <br>
+            <br>
+            <label for="bio">Your bio: </label>
+            <br>
+            <textarea name="bio" id="bio" cols="20" rows="10" placeholder="Enter about yourself"></textarea>
+
+            <br>
+            <input type="submit" value="Sign Up">
+        </form>
+        
+    </body>
+
+</html>
